@@ -17,16 +17,16 @@
       "filename": "../../infrastructure/infrastructure.md"
     },
     {
-      "title": "Lab 2: Enable HeatWave & Configure Private Access Channel",
-      "filename": "../../dbmds/dbmds.md"
+      "title": "Lab 2: Import data and add HeatWave Cluster to MySQL Database Service",
+      "filename": "../../import/import.md"
     },
     {
-      "title": "Lab 3: Run Queries Leveraging HeatWave",
-      "filename": "../../heatwave/heatwave.md"
+      "title": "Lab 3: Load data in HeatWave Cluster and run Queries Leveraging HeatWave",
+      "filename": "../../load/load.md"
     },
     {
-      "title": "Lab 4: Use Analytics Cloud on MySQL Database Service Powered by HeatWave",
-      "filename": "../../analytics/analytics.md"
+      "title": "Lab 4: Running Apache Zeppelin with MySQL HeatWave Introduction",
+      "filename": "../../zeppelin/zeppelin.md"
     },
    
     {

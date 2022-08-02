@@ -2,18 +2,17 @@
 
 ## Introduction
 
-In this lab we will build the infrastructure that we will use to run the rest of the workshop. The main three elements that we will be creating are a Virtual Cloud Network which helps you define your own data center network topology inside the Oracle Cloud by defining some of the following components (Subnets, Route Tables, Security Lists, Gateways, etc.), bastion host which is a compute instance that serves as the public entry point for accessing a private network from external networks like the internet, and we will create an Oracle Analytics Cloud instance which is embedded with machine learning, that helps organizations to discover unique insights faster with automation and intelligence. Finally, we will create a MySQL DB Service instance that we will allow us to configure a heatwave cluster later. 
+In this lab we will build the infrastructure that we will use to run the rest of the workshop. The main three elements that we will be creating are a Virtual Cloud Network which helps you define your own data center network topology inside the Oracle Cloud by defining some of the following components (Subnets, Route Tables, Security Lists, Gateways, etc.), bastion host which is a compute instance that serves as the public entry point for accessing a private network from external networks like the internet, where install and run Apache Zeppelin. Finally, we will create a MySQL DB Service instance that we will allow us to configure a heatwave cluster later. 
 
-Estimated Time: 35 minutes
+Estimated Time: 18 minutes
 
 ### Objectives
 
 In this lab, you will:
--	Create a Virtual Cloud Network and allow traffic through MySQL Database Service port
--	Create a Bastion Host compute instance 
--	Connect to the Bastion Host, install MySQL Shell and download the workshop Dataset
-- Create an Oracle Analytics Cloud instance
+- Create a Virtual Cloud Network and allow traffic through MySQL Database Service port
 - Create an Instance of MySQL in the Cloud
+- Create a Bastion Host compute instance 
+- Connect to the Bastion Host, install MySQL Shell
 
 ### Prerequisites
 
@@ -23,7 +22,7 @@ In this lab, you will:
 
 ## Task 1: Create a Virtual Cloud Network and allow traffic through MySQL Database Service port
 
-1. Log-in to your OCI tenancy. Once you have logged-in, select _**Networking >> Virtual Cloud Networks**_ from the _**menu icon**_ on the top left corner.
+1. Log-in to your OCI tenancy. Once you have logged-in, select _**Networking >> Virtual Cloud Networks**_ ***NET*** from the _**menu icon**_ on the top left corner.
 
   ![OCI Dashboard](./images/Lab1-task1.1.png)
 
